@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import onslgImage from './Images/onslg.png'
 import AnniesImage from './Images/Annies.png'
+import bankingImage from './Images/banking.png'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import {
   Atom,
@@ -96,11 +97,11 @@ export default function App() {
       link: 'https://your-second-project.com',
     },
     {
-      title: 'Coming Soon ',
-      category: '',
-      image: '',
+      title: 'Online Banking ',
+      category: 'this is a demo project(unfinished)',
+      image: bankingImage,
       color: '#EC4899',
-      link: 'https://your-third-project.com',
+      link: 'https://online-banking-nu-eight.vercel.app',
     },
     {
       title: 'Coming Soon',
