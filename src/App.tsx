@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
-import onslgImage from './images/onslg.png'
-import AnniesImage from './images/Annies.png'
+import onslgImage from './Images/onslg.png'
+import AnniesImage from './Images/Annies.png'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import {
   Atom,
