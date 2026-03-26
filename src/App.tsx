@@ -484,15 +484,15 @@ export default function App() {
                 it.
               </p>
               <button
-                onClick={() => {
-                  navigator.clipboard.writeText('neatwebstudio@outlook.com')
-                  alert('Email address copied to clipboard!')
-                }}
-                className="inline-flex items-center gap-3 bg-white text-slate-950 px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform duration-300 shadow-[0_0_40px_rgba(255,255,255,0.3)]"
-              >
-                <Mail size={20} />
-                neatwebstudio@outlook.com
-              </button>
+  onClick={() => {
+    navigator.clipboard.writeText('neatwebstudio@outlook.com')
+    alert('Email address copied to clipboard!')
+  }}
+  className="inline-flex items-center gap-2 md:gap-3 bg-white text-slate-950 px-4 md:px-8 py-3 md:py-4 rounded-full font-bold text-base md:text-lg hover:scale-105 transition-transform duration-300 shadow-[0_0_40px_rgba(255,255,255,0.3)] whitespace-nowrap"
+>
+  <Mail size={16} className="md:w-5 md:h-5" />
+  <span className="text-sm md:text-base">neatwebstudio@outlook.com</span>
+</button>
             </motion.div>
           </div>
         </section>
