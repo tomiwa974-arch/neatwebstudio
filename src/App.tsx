@@ -84,20 +84,20 @@ export default function App() {
   const projects = [
     {
       title: 'Onslg Project',
-      category: 'Web Development',
+      category: 'Data website',
       image: onslgImage, 
       color: '#00D9FF',
       link: 'https://onlgstreets.com',
     },
     {
-      title: 'In devlopment',
-      category: 'Web Development',
+      title: 'Fashion collection (E-commerce)',
+      category: 'Currently in Developmen',
       image: AnniesImage,
       color: '#A855F7',
-      link: 'https://your-second-project.com',
+      link: '',
     },
     {
-      title: 'Online Banking ',
+      title: 'Vault Pay (Online Banking) ',
       category: 'this is a demo project(unfinished)',
       image: bankingImage,
       color: '#EC4899',
