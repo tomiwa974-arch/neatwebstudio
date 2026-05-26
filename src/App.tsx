@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import onslgImage from './Images/onslg.png'
+import onlgstreetsImage from './Images/onlgstreets.png'
 import AnniesImage from './Images/Annies.png'
 import bankingImage from './Images/banking.png'
 import icebergImage from './Images/iceberg.png'
@@ -86,7 +86,7 @@ export default function App() {
     {
       title: 'Onslg Project',
       category: 'Data website',
-      image: onslgImage, 
+      image: onlgstreetsImage, 
       color: '#00D9FF',
       link: 'https://onlgstreets.com',
     },
