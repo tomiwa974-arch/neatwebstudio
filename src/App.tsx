@@ -95,7 +95,7 @@ export default function App() {
       category: 'Premium restaurant ;lamding page and menu',
       image: icebergImage,
       color: '#00D9FF',
-      link: 'https://iceberg.com',
+      link: 'https://iceberg-front.vercel.app',
     },
     {
       title: 'Fashion collection (E-commerce)',
