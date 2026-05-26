@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import onslgImage from './Images/onslg.png'
 import AnniesImage from './Images/Annies.png'
 import bankingImage from './Images/banking.png'
+import icebergImage from './Images/iceberg.png'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import {
   Atom,
@@ -90,6 +91,13 @@ export default function App() {
       link: 'https://onlgstreets.com',
     },
     {
+      title: 'Iceberg',
+      category: 'Premium restaurant ;lamding page and menu',
+      image: icebergImage,
+      color: '#00D9FF',
+      link: 'https://iceberg.com',
+    },
+    {
       title: 'Fashion collection (E-commerce)',
       category: 'Currently in Developmen',
       image: AnniesImage,
@@ -103,13 +111,8 @@ export default function App() {
       color: '#EC4899',
       link: 'https://online-banking-nu-eight.vercel.app',
     },
-    {
-      title: 'Coming Soon',
-      category: '',
-      image: '',
-      color: '#0EA5E9',
-      link: 'https://your-fourth-project.com',
-    },
+    
+    
   ]
 
   return (
