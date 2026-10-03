@@ -100,7 +100,7 @@ export default function App() {
     {
       title: 'Fashion collection (E-commerce)',
       category: 'Currently in Developmen',
-      image: AnniesImage,
+      image: Annies2Image,
       color: '#A855F7',
       link: '',
     },
