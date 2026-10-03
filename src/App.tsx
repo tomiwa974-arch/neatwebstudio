@@ -133,7 +133,7 @@ export default function App() {
             }}
             className="font-display font-bold text-xl tracking-tight"
           >
-            NEATWEB<span className="text-neon-cyan">.</span>
+            TOMIWA<span className="text-neon-cyan">.</span>
           </motion.div>
           <motion.a
             initial={{
@@ -199,7 +199,7 @@ export default function App() {
               NEATWEB
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-pink">
-                STUDIO
+                Dev.
               </span>
             </motion.h1>
 
