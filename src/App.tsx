@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import onlgstreetsImage from './Images/onlgstreets.png'
-import AnniesImage from './Images/Annies.png'
+import AnniesImage from './Images/Annies2.png'
 import bankingImage from './Images/banking.png'
 import icebergImage from './Images/iceberg.png'
 import { motion, useScroll, useTransform } from 'framer-motion'
@@ -100,7 +100,7 @@ export default function App() {
     {
       title: 'Fashion collection (E-commerce)',
       category: 'Currently in Developmen',
-      image: Annies2Image,
+      image: AnniesImage,
       color: '#A855F7',
       link: '',
     },
