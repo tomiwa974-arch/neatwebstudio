@@ -102,7 +102,7 @@ export default function App() {
       category: 'Currently in Developmen',
       image: AnniesImage,
       color: '#A855F7',
-      link: '',
+      link: 'https://broadcast-rotunda-snuff.ngrok-free.dev/',
     },
     {
       title: 'Vault Pay (Online Banking) ',
